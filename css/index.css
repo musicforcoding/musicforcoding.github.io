@@ -1,0 +1,58 @@
+body {
+  font-family: 'source-code-pro', sans-serif;
+  font-size: 14px;
+  background-color: #333544;
+  color: #fff; }
+
+.jp-playlist {
+  margin-top: 2em;
+  margin-bottom: 10em; }
+
+.playlist ul {
+  margin: 2em 0; }
+
+.playlist li {
+  float: none;
+  margin-left: 10px;
+  margin-top: 1em; }
+
+.jp-current-time, .jp-duration {
+  color: #edfaa2; }
+
+.selected {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #333544; }
+
+.player a,
+.player a:link,
+.player a:visited,
+.player a:hover,
+.player a:focus,
+.player a:active {
+  color: #96cbfe; }
+
+.player ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  overflow: hidden; }
+
+.player .selected li {
+  float: left;
+  margin-right: 1em; }
+
+.player .copyright {
+  margin-bottom: 2em;
+  font-size: 10px; }
+
+.player .copyright a {
+  color: #72dc94; }
+
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {
+  color: #72dc94; }
+
+/*# sourceMappingURL=index.css.map */
