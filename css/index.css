@@ -72,17 +72,20 @@ div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {
   width: 100%; }
 
 .line {
+  color: #ec007c;
+  margin-top: 0.5em;
   display: inline-block;
   max-height: 20px;
   overflow: hidden;
   margin: 0;
   padding: 0;
   float: left;
-  white-space: nowrap; }
+  white-space: nowrap;
+  position: absolute;
+  top: 0; }
 
-.top {
-  color: #ec007c;
-  margin-top: 0.5em; }
+.player {
+  margin-top: 3em; }
 
 @media screen and (max-width: 568px) {
   .column {
