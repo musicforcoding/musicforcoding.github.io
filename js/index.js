@@ -25,6 +25,10 @@ $(document).ready(function () {
         cssSelectorAncestor: "#jp_container_1"
     }, [
         {
+            title: "ac92b87db80e",
+            mp3: "src/ac92b87db80e.mp3"
+		},
+        {
             title: "Artemev – Pohod",
             mp3: "https://psv4.vk.me/c4778/u5618740/audios/ac92b87db80e.mp3"
 		},
