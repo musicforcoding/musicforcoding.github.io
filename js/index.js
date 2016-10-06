@@ -25,31 +25,27 @@ $(document).ready(function(){
 		cssSelectorAncestor: "#jp_container_1"
 	}, [
 		{
-			title:"Эдуард Артемьев – Поход",
+			title:"Artemev – Pohod",
 			mp3:"https://psv4.vk.me/c4778/u5618740/audios/ac92b87db80e.mp3"
 		},
         {
-			title:"Эдуард Артемьев – Водитель для Веры",
+			title:"Artemev – Voditel Dlya Veryi",
 			mp3:"https://psv4.vk.me/c5071/u55870745/audios/d42e86bff8e2.mp3"
 		},
         {
-			title:"Эдуард Артемьев – Сон",
+			title:"Artemev – Son",
 			mp3:"https://psv4.vk.me/c4617/u108732856/audios/5f10257d0c3e.mp3"
 		},
         {
-			title:"Эдуард Артемьев – Водитель для Веры",
-			mp3:"https://psv4.vk.me/c5071/u55870745/audios/d42e86bff8e2.mp3"
-		},
-        {
-			title:"Эдуард Артемьев – Ветер надежды",
+			title:"Artemev – Veter Nadesjdyi",
 			mp3:"https://psv4.vk.me/c5013/u18021878/audios/c7bb97400ef0.mp3"
 		},
         {
-			title:"Эдуард Артемьев – Они шли долго",
+			title:"Artemev – Oni Shli Dolgo",
 			mp3:"https://psv4.vk.me/c613731/u246173080/audios/f1ec51b84548.mp3"
 		},
         {
-			title:"Эдуард Артемьев – Курьер ",
+			title:"Artemev – Kur'er",
 			mp3:"https://psv4.vk.me/c6192/u155213172/audios/6ba995aa11e6.mp3"
 		},
         {
@@ -215,5 +211,14 @@ $(document).ready(function(){
 		$(this).blur();
 		return false;
 	});
-
+    
+    $('.jp-30s').click(function(){
+         $("#jquery_jplayer_1").jPlayer( "play", ($("#jquery_jplayer_1").data("jPlayer").status.currentTime) - 30 ); 
+    });
+    
+    var vol = $("#jquery_jplayer_1").data("jPlayer").status.Volume;
+    
+    $('.jp-plus30s').click(function(){
+         $("#jquery_jplayer_1").jPlayer( "play", ($("#jquery_jplayer_1").data("jPlayer").status.currentTime) + 30 ); 
+    });
 });
