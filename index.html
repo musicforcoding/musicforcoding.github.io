@@ -59,8 +59,8 @@
         }
     </script>
 
-
     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
     <script src="js/jplayer.playlist.js"></script>
     <script src="js/index.js"></script>
@@ -71,26 +71,31 @@
 
 <body>
     <div class="container player">
-       <div class="line top">
+        <div class="line top">
             <p>musicForCoding.show();//------------</p>
         </div>
         <div id="jquery_jplayer_1" class="jp-jplayer"></div>
         <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
             <div class="jp-type-playlist">
-               <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="col-lg-3 col-md-3 col-sm-3">
                     <div class="selected">
                         <p>//------------Controls------------</p>
                         <span>
                             Time: <br> [ <span class="jp-current-time"></span> | <span class="jp-duration"></span>] <a class="jp-30s" href="#">[-30s]</a>
-                            <a class="jp-plus30s" href="#">[+30s]</a>
+                        <a class="jp-plus30s" href="#">[+30s]</a>
                         </span>
-                        <ul></br>
-                           <li id="vol">Volume:</li><br>
+                        <ul>
+                            </br>
+                            <li id="vol">Volume:</li>
+                            <br>
                             <li><a class="jp-mute" href="#">[MUTE]</a></li>
                             <li><a class="jp-unmute" href="#">[UNMUTE]</a></li>
                             <li><a class="jp-volume-bar" href="#">[&lt;----------------&gt;]</a></li>
-                            <li><a class="jp-volume-max" href="#">[MAX]</a></li></br></br>
-                            <li>Playlist:</li><br>
+                            <li><a class="jp-volume-max" href="#">[MAX]</a></li>
+                            </br>
+                            </br>
+                            <li>Playlist:</li>
+                            <br>
                             <li><a class="jp-play" href="#">[PLAY]</a></li>
                             <li><a class="jp-pause" href="#">[PAUSE]</a></li>
                             <li><a class="jp-stop" href="#">[STOP]</a></li>
@@ -117,7 +122,6 @@
             </div>
         </div>
     </div>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
