@@ -454,7 +454,7 @@ $(document).ready(function () {
         return false;
     });
 
-    if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+    /*if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
         $('.jp-30s').click(function () {
             $("#jquery_jplayer_1").jPlayer("play", ($("#jquery_jplayer_1").data("jPlayer").status.currentTime) - 30);
         });
@@ -464,5 +464,5 @@ $(document).ready(function () {
         $('.jp-plus30s').click(function () {
             $("#jquery_jplayer_1").jPlayer("play", ($("#jquery_jplayer_1").data("jPlayer").status.currentTime) + 30);
         });
-    }
+    }*/
 });
