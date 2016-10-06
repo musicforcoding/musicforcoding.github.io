@@ -18,13 +18,17 @@ $link: #555;
 
 body {
     font-family:'Source Code Pro', 'source-code-pro', 'Conso', Courier New, monospace, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     background-color: $background;
     color: #fff;
 }
 
 .jp-playlist {
     margin-bottom: 10em;
+}
+
+.jp-playlist ol li{
+    font-size: 12px;
 }
 
 .playlist li {
@@ -63,11 +67,6 @@ body {
 .player a:active {
     color: $blue;
 }
-
-.player {
-    margin-top: 2em;
-}
-
 .player ul {
     list-style-type: none;
     padding: 0;
@@ -96,12 +95,12 @@ div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {
     -webkit-column-width: auto;
     -moz-column-width: auto;
     column-width: auto;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-gap: 2em;
-    -moz-column-gap: 2em;
-    column-gap: 2em;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
    }
 
 .container {
@@ -109,9 +108,6 @@ div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {
 }
 
 .line {
-color: $red;
-position: absolute;
-bottom: 0;
 display: inline-block;
 max-height: 20px;
 overflow: hidden;
@@ -122,14 +118,11 @@ white-space: nowrap;
 }
 
 .top {
-    position: absolute;
-    top: 0;
+    color: $red;
+    margin-top: 0.5em;
 }
 
-@media screen and (max-height:568px) {
-    #vol {
-        display: none;
-    }
+@media screen and (max-width:568px) {
     .column {
     -webkit-column-count: 1;
     -moz-column-count: 1;
