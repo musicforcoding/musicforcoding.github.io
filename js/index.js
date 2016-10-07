@@ -315,55 +315,55 @@ $(document).ready(function () {
 		},
         {
             title: "tezce – apathy",
-            mp3: "https://psv4.vk.me/c611523/u283305193/audios/e0bfb5c28ffd.mp3"
+            mp3: "src/tezce - apathy.mp3"
 		},
         {
             title: "tezce – drown",
-            mp3: "https://psv4.vk.me/c611523/u283305193/audios/dfa7f82e44f6.mp3"
+            mp3: "src/tezce - drown.mp3"
 		},
         {
             title: "tezce – i have no reason pt.2",
-            mp3: "https://psv4.vk.me/c611523/u283305193/audios/977c10dfa354.mp3"
+            mp3: "src/tezce - i have no reason pt.2.mp3"
 		},
         {
             title: "Atanas Valkov – For Honor",
-            mp3: "https://psv4.vk.me/c611519/u86635051/audios/89e87f72c9e5.mp3"
+            mp3: "src/Atanas Valkov - For HonorHonour.mp3"
 		},
         {
             title: "John Williams – Hedwigs",
-            mp3: "https://cs3-1v4.vk-cdn.net/p8/f05b991d7be2e8.mp3"
+            mp3: "src/John Williams - Hedwigs Theme.mp3"
 		},
         {
             title: "The Toxic Avenger – Make This Right",
-            mp3: "https://cs3-1v4.vk-cdn.net/p7/b4962cee9f4cd8.mp3"
+            mp3: "src/The Toxic Avenger - Make this right.mp3"
 		},
         {
             title: "Ashtar Command – Deadman's Gun",
-            mp3: "https://cs3-1v4.vk-cdn.net/p21/b1a57f72886616.mp3"
+            mp3: "src/Ashtar Command - Deadman#39;s Gun.mp3"
 		},
         {
             title: "N'to – Trauma (worakls remix)",
-            mp3: "https://psv4.vk.me/c6133/u5255366/audios/7962f5c1a971.mp3"
+            mp3: "src/N#39;to - Trauma (Worakls remix) (ТМ).mp3"
 		},
         {
             title: "N'to–Time",
-            mp3: "https://cs3-2v4.vk-cdn.net/p9/99fada10e9e737.mp3"
+            mp3: "src/N#39;to - Time.mp3"
 		},
         {
             title: "N'to – Utopia",
-            mp3: "https://cs3-1v4.vk-cdn.net/p24/9039f45fad0fc8.mp3"
+            mp3: "src/N#39;to - Utopia.mp3"
 		},
         {
             title: "N'to – The Bosnian",
-            mp3: "https://psv4.vk.me/c6191/u88144527/audios/282f2de0317e.mp3"
+            mp3: "src/N#39;to - The Bosnian.mp3"
 		},
         {
             title: "N'to – Dance Me",
-            mp3: "https://psv4.vk.me/c536219/u88144527/audios/72e326da1d9d.mp3"
+            mp3: "src/N#39;to - Dance Me.mp3"
 		},
         {
             title: "GK – Three",
-            mp3: "https://psv4.vk.me/c536311/u66311639/audios/b930c582385b.mp3"
+            mp3: "src/GK - Three.mp3"
 		},
         {
             title: "GK – Four",
