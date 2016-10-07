@@ -367,63 +367,63 @@ $(document).ready(function () {
 		},
         {
             title: "GK – Four",
-            mp3: "https://psv4.vk.me/c536513/u66311639/audios/b211c2ee9cc4.mp3"
+            mp3: "src/GK - Four.mp3"
 		},
         {
             title: "podval capella – sugar",
-            mp3: "https://cs3-1v4.vk-cdn.net/p23/f25e3f2f7a2026.mp3"
+            mp3: "src/podval capella - sugar.mp3"
 		},
         {
             title: "podval capella – endorphin",
-            mp3: "https://cs3-1v4.vk-cdn.net/p20/d45ff09623903c.mp3"
+            mp3: "src/podval capella - endorphin.mp3"
 		},
         {
             title: "Run Vaylor – Steel Kingdom",
-            mp3: "https://psv4.vk.me/c611326/u72683745/audios/c443b34087cc.mp3"
+            mp3: "src/Run Vaylor - Steel Kingdom.mp3"
 		},
         {
             title: "Run Vaylor – Robot Skin",
-            mp3: "https://psv4.vk.me/c611326/u72683745/audios/a6c95916379c.mp3"
+            mp3: "src/Run Vaylor - Robot Skin.mp3"
 		},
         {
             title: "Really Slow Motion – Gender",
-            mp3: "https://psv4.vk.me/c536214/u27162156/audios/3c400bc219e5.mp3"
+            mp3: "src/Really Slow Motion - Gender.mp3"
 		},
         {
             title: "Arcade Fire – Song On The Beach",
-            mp3: "https://psv4.vk.me/c6191/u8954795/audios/35243a725298.mp3"
+            mp3: "src/Arcade Fire - Song On The Beach.mp3"
 		},
         {
             title: "Bloc Party – Signs (Acoustic)",
-            mp3: "https://psv4.vk.me/c5007/u3135082/audios/af6520997cfe.mp3"
+            mp3: "src/Bloc Party - Signs (Acoustic).mp3"
 		},
         {
             title: "No More Room in Hell – OST",
-            mp3: "https://cs3-1v4.vk-cdn.net/p9/7a7ab0bdca3834.mp3"
+            mp3: "src/No More Room in Hell - OST Menu theme.mp3"
 		},
         {
             title: "Hans Zimmer – Cornfield Chase",
-            mp3: "https://cs3-1v4.vk-cdn.net/p14/5075e215ce4cc6.mp3"
+            mp3: "src/Hans Zimmer - Cornfield Chase.mp3"
 		},
         {
             title: "Hans Zimmer – Coward",
-            mp3: "https://cs3-1v4.vk-cdn.net/p17/029fac336959a5.mp3"
+            mp3: "src/Hans Zimmer - 13. Coward [OST Интерстеллар].mp3"
 		},
         {
             title: "Valiant Hearts – Main Theme",
-            mp3: "https://cs3-2v4.vk-cdn.net/p5/14383a6a262071.mp3"
+            mp3: "src/Valiant Hearts the Great War - Main Theme.mp3"
 		},
         {
             title: "Henry Jackman – Reunited",
-            mp3: "https://cs3-1v4.vk-cdn.net/p18/8cf5c49a69e062.mp3"
+            mp3: "src/Henry Jackman (OST Uncharted 4 a thief#039;s end) - Reunited.mp3"
 		},
         {
             title: "The Hit House – Nathan's Brain",
-            mp3: "https://psv4.vk.me/c613726/u65042827/audios/45ba26a2bf46.mp3"
+            mp3: "src/The Hit House - Nathan#039;s Brain (Pixies - Where is my mind cover).mp3"
 		},
         {
             title: "M83 – Moonchild",
-            mp3: "https://cs3-2v4.vk-cdn.net/p15/9c51c8042cfef6.mp3"
+            mp3: "src/M83 - Moonchild (OST BBC Top Gear).mp3"
 		}
 
 	], {
